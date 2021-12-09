@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false'
+        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=false'
       )
       .then((res) => {
         setCoins(res.data);
@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div style={{ display: 'flex' }}>
-      <div className="exchangeContainer">converter</div>
+      <div className="exchangeContainer"></div>
       <div className="middlePart">
         <div className="header">
           <form>
@@ -57,7 +57,7 @@ function App() {
           })}
         </div>
       </div>
-      <div className="chatContainer">chat</div>
+      <div className="chatContainer"></div>
     </div>
   );
 }
