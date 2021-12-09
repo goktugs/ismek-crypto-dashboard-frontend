@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import './App.css';
-import ListItem from './components/ListItem/ListItem.js';
+import ListItem from './Components/ListItem/ListItem';
 
 function App() {
   const [search, setSearch] = useState('');
