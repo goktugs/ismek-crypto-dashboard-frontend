@@ -2,10 +2,14 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import './App.css';
 import ListItem from './Components/ListItem/ListItem';
+import Client from './Components/Chat/client/Client';
+import ReactPaginate from 'react-paginate';
+import Pagination from './Components/Pagination/Pagination';
 
 function App() {
   const [search, setSearch] = useState('');
   const [coins, setCoins] = useState([]);
+  const [pageNumber, setPageNumber] = useState(0);
 
   useEffect(() => {
     axios
@@ -26,8 +30,36 @@ function App() {
     coin.name.toLowerCase().includes(search.toLowerCase())
   );
 
+  const coinsPerPage = 8;
+  const pagesVisited = pageNumber * coinsPerPage;
+
+  const displayCoins = filteredCoins
+    .slice(pagesVisited, pagesVisited + coinsPerPage)
+    .map((coin) => {
+      return (
+        <ListItem
+          id={coin.id}
+          name={coin.name}
+          price={coin.current_price}
+          symbol={coin.symbol}
+          marketcap={coin.market_cap}
+          volume={coin.total_volume}
+          image={coin.image}
+          priceChange={coin.price_change_percentage_24h}
+        />
+      );
+    });
+
+  const pageCount = Math.ceil(coins.length / coinsPerPage);
+  const changePage = ({ selected }) => {
+    setPageNumber(selected);
+  };
+  console.log(pageCount);
+
+  console.log(filteredCoins);
+
   return (
-    <div style={{ display: 'flex' }}>
+    <div className="App">
       <div className="exchangeContainer"></div>
       <div className="middlePart">
         <div className="header">
@@ -41,23 +73,26 @@ function App() {
           </form>
         </div>
         <div className="coinsContainer">
-          {filteredCoins.map((coin) => {
-            return (
-              <ListItem
-                key={coin.id}
-                name={coin.name}
-                price={coin.current_price}
-                symbol={coin.symbol}
-                marketcap={coin.market_cap}
-                volume={coin.total_volume}
-                image={coin.image}
-                priceChange={coin.price_change_percentage_24h}
-              />
-            );
-          })}
+          {displayCoins}
+          <ReactPaginate
+            previousLabel={'Prev'}
+            nextLabel={'Next'}
+            pageCount={pageCount}
+            onPageChange={changePage}
+            containerClassName={'paginationButtons'}
+            previousClassName={'previousButton'}
+            nextLinkClassName={'nextButton'}
+            disabledClassName={'paginationDisabled'}
+            activeClassName={'paginationActive'}
+          />
+        </div>
+        <div>
+          <Pagination />
         </div>
       </div>
-      <div className="chatContainer"></div>
+      <div className="chatContainer">
+        <Client />
+      </div>
     </div>
   );
 }

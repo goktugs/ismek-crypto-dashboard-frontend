@@ -14,12 +14,17 @@ body {
     #17153a 100%
   );
 }
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+}
+
 .coinsContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 30px;
   color: #fff;
 }
 
