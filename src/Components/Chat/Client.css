@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chatContainer {
+  display: flex;
+}
+.client {
+  align-self: flex-end;
+}
+
+.inputs input {
+  margin: 10px;
+  width: 200px;
+  height: 20px;
+  border: 2px solid #0091ff;
+  background-color: transparent;
+  padding-left: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.inputs:focus {
+  outline: none;
+}

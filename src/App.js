@@ -2,9 +2,8 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import './App.css';
 import ListItem from './Components/ListItem/ListItem';
-import Client from './Components/Chat/client/Client';
+import Client from './Components/Chat/Client.js';
 import ReactPaginate from 'react-paginate';
-import Pagination from './Components/Pagination/Pagination';
 
 function App() {
   const [search, setSearch] = useState('');
@@ -14,7 +13,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=false'
+        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=25&page=1&sparkline=false'
       )
       .then((res) => {
         setCoins(res.data);
@@ -72,11 +71,11 @@ function App() {
             />
           </form>
         </div>
-        <div className="coinsContainer">
-          {displayCoins}
+        <div className="coinsContainer">{displayCoins}</div>
+        <div>
           <ReactPaginate
-            previousLabel={'Prev'}
-            nextLabel={'Next'}
+            previousLabel={'<'}
+            nextLabel={'>'}
             pageCount={pageCount}
             onPageChange={changePage}
             containerClassName={'paginationButtons'}
@@ -85,9 +84,6 @@ function App() {
             disabledClassName={'paginationDisabled'}
             activeClassName={'paginationActive'}
           />
-        </div>
-        <div>
-          <Pagination />
         </div>
       </div>
       <div className="chatContainer">

@@ -11,13 +11,21 @@ const Coin = ({
   volume,
   image,
   priceChange,
+  id,
 }) => {
   return (
     <div className="wrapper">
       <div className="cryptoCoin">
         <img src={image} alt={`${name}`} className="coinLogo" />
         <div className="coinNameWrap">
-          <h1 className="coinName">{name}</h1>
+          <h1
+            className="coinName"
+            onClick={() => {
+              window.open(`https://www.coingecko.com/tr/coins/${id}`);
+            }}
+          >
+            {name}
+          </h1>
           <p className="coinSymbol">{symbol}</p>
         </div>
         <p className="coinPrice">${price.toLocaleString()}</p>

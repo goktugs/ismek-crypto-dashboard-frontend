@@ -6,6 +6,7 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
+  list-style: none;
 }
 body {
   background: radial-gradient(
@@ -18,6 +19,7 @@ body {
 .App {
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
+  height: 100vh;
 }
 
 .coinsContainer {
@@ -44,6 +46,57 @@ body {
   box-shadow: 0 0 3pt 2pt white;
   color: black;
   font-weight: bold;
+}
+
+.paginationButtons {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.paginationButtons a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.paginationButtons a:hover {
+  color: white;
+  background-color: purple;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: purple;
+}
+
+.chatContainer {
+  display: flex;
+}
+.client {
+  align-self: flex-end;
+}
+
+.inputs input {
+  margin: 10px;
+  width: 200px;
+  height: 20px;
+  border: 2px solid #0091ff;
+  background-color: transparent;
+  padding-left: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.inputs:focus {
+  outline: none;
 }
 
 @media (max-width: 520px) {
