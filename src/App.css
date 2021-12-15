@@ -30,6 +30,13 @@ body {
   color: #fff;
 }
 
+.chatContainer {
+  display: flex;
+  height: 75%;
+  width: 220px;
+  background-color: #320a6e67;
+  overflow: auto;
+}
 .header {
   display: flex;
   justify-content: space-around;
@@ -75,28 +82,6 @@ body {
 .paginationActive a {
   color: white;
   background-color: purple;
-}
-
-.chatContainer {
-  display: flex;
-}
-.client {
-  align-self: flex-end;
-}
-
-.inputs input {
-  margin: 10px;
-  width: 200px;
-  height: 20px;
-  border: 2px solid #0091ff;
-  background-color: transparent;
-  padding-left: 10px;
-  color: white;
-  font-size: 15px;
-}
-
-.inputs:focus {
-  outline: none;
 }
 
 @media (max-width: 520px) {

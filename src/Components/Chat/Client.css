@@ -2,15 +2,20 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 100%;
 }
 
-.chatContainer {
+.clientWrapper {
+  align-self: flex-end;
   display: flex;
 }
-.client {
-  align-self: flex-end;
+.inputs input::placeholder {
+  color: white;
 }
 
+input:focus::placeholder {
+  color: transparent;
+}
 .inputs input {
   margin: 10px;
   width: 200px;
@@ -20,8 +25,65 @@ body {
   padding-left: 10px;
   color: white;
   font-size: 15px;
+  background: linear-gradient(90deg, #8f4ee582 0%, #b84ee549 100%);
+  border-radius: 88px;
 }
 
 .inputs:focus {
   outline: none;
+  border: 10px solid red;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*
+.button button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.75);
+  background: rgba(79, 9, 119, 0.329);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(79, 9, 119, 0.329) 0%,
+    rgba(75, 26, 188, 1) 100%
+  ); */
+
+.button button {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0.5em;
+  line-height: 1;
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.75);
+  background: rgba(79, 9, 119, 0.329);
+  padding: 8px 16px;
+  outline: 0;
+  border: 2px solid;
+  cursor: pointer;
+  position: relative;
+}
+
+.button button::after {
+  content: '';
+  background-color: white;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button button:hover::after {
+  top: 0px;
+  left: 0px;
 }

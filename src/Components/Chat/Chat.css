@@ -1,3 +1,138 @@
-input {
-  color: black;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.chatWrapper {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatWrapper .chatBody .messageContainer {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.chatWrapper .chatBody .messageContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.chatWrapper .chatBody .message {
+  height: auto;
+  padding: 5px;
+  display: flex;
+}
+
+.chatWrapper .chatBody .message .content {
+  width: auto;
+  height: auto;
+  min-height: 40px;
+  max-width: 220px;
+  background-color: #2c3350;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+#you {
+  justify-content: flex-end;
+}
+#you .content {
+  justify-content: flex-end;
+}
+
+#you .meta {
+  justify-content: flex-start;
+  margin-left: 5px;
+}
+
+#other {
+  justify-content: flex-start;
+}
+
+#other .content {
+  justify-content: flex-start;
+  background-color: #7710d1;
+}
+
+#other .meta {
+  justify-content: flex-start;
+  margin-right: 5px;
+}
+
+.meta #author {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.meta #time {
+  font-size: 10px;
+}
+
+.chatWrapper .chatBody .message .meta {
+  display: flex;
+  font-weight: bold;
+}
+
+.chatWrapper .chatFooter {
+  height: 40px;
+  border: 1px solid #263238;
+  background: rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatWrapper .chatFooter input {
+  height: 100%;
+  width: 218px;
+  align-self: flex-start;
+  background: none;
+  outline: none !important;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.chatWrapper .chatFooter button {
+  position: absolute;
+  z-index: 1;
+  top: 9px;
+  right: 10px;
+  color: #fff;
+  border: none;
+  background: #cc92fc;
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 6px 10px;
+  border-radius: 10px;
+  outline: none !important;
+  transition: background 0.2s ease;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.chatWrapper .chatFooter button:hover {
+  color: purple;
+  background-color: white;
+}
+.hide {
+  opacity: 0 !important;
 }

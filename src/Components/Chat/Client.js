@@ -19,7 +19,7 @@ function Client() {
   };
 
   return (
-    <div className="client">
+    <div className="clientWrapper">
       {!showChat ? (
         <div className="login">
           <div className="inputs">
