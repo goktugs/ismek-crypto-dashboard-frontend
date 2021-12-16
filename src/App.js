@@ -4,6 +4,9 @@ import './App.css';
 import ListItem from './Components/ListItem/ListItem';
 import Client from './Components/Chat/Client.js';
 import ReactPaginate from 'react-paginate';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import CurrConverter from './Components/CurrencyConverter/CurrConverter';
+import NewsFeed from './Components/NewsFeed/NewsFeed';
 
 function App() {
   const [search, setSearch] = useState('');
@@ -29,7 +32,7 @@ function App() {
     coin.name.toLowerCase().includes(search.toLowerCase())
   );
 
-  const coinsPerPage = 8;
+  const coinsPerPage = 6;
   const pagesVisited = pageNumber * coinsPerPage;
 
   const displayCoins = filteredCoins
@@ -53,13 +56,13 @@ function App() {
   const changePage = ({ selected }) => {
     setPageNumber(selected);
   };
-  console.log(pageCount);
-
-  console.log(filteredCoins);
 
   return (
     <div className="App">
-      <div className="exchangeContainer"></div>
+      <div className="exchangeContainer">
+        <CurrConverter />
+        <NewsFeed />
+      </div>
       <div className="middlePart">
         <div className="header">
           <form>
@@ -85,6 +88,7 @@ function App() {
             activeClassName={'paginationActive'}
           />
         </div>
+        <div className="socialButtons"></div>
       </div>
       <div className="chatContainer">
         <Client />

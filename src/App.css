@@ -14,6 +14,7 @@ body {
     #201d47 0%,
     #17153a 100%
   );
+  overflow: hidden;
 }
 
 .App {
@@ -32,7 +33,7 @@ body {
 
 .chatContainer {
   display: flex;
-  height: 75%;
+  max-height: 75%;
   width: 220px;
   background-color: #320a6e67;
   overflow: auto;

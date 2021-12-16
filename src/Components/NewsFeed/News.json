@@ -1,0 +1,292 @@
+{
+    "data": [
+        {
+            "news_url": "https://cryptopotato.com/crypto-hedge-funds-are-outperforming-following-bitcoins-decline-since-november/",
+            "image_url": "https://crypto.snapi.dev/images/v1/v/q/altcoins-cover-1-90062.jpg",
+            "title": "Crypto Hedge Funds are Outperforming Following Bitcoin's Decline Since November",
+            "text": "Crypto hedge funds backed by a basket of digital assets outperformed Bitcoin last month as the world's leading cryptocurrency fell hard from its peak price.",
+            "source_name": "CryptoPotato",
+            "date": "Thu, 16 Dec 2021 02:29:41 -0500",
+            "topics": [
+                "institutions"
+            ],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://ambcrypto.com/cryptogames-offering-bitcoin-and-altcoin-casino-games/",
+            "image_url": "https://crypto.snapi.dev/images/v1/o/z/jonathan-petersson-gqhwmkyh3yc-unsplash-90058.jpg",
+            "title": "CryptoGames: Offering Bitcoin and Altcoin casino games",
+            "text": "CryptoGames, owned by MuchGaming B.V, is an exclusive crypto casino that is operating online for a good couple of years now. Over time, it rapidly became the top and first choice for gamblers from around the world.",
+            "source_name": "AMBCrypto",
+            "date": "Thu, 16 Dec 2021 01:40:04 -0500",
+            "topics": [],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.newsbtc.com/news/bitcoin/dorsey-and-jay-zs-blind-trust-to-fund-bitcoin-development-reveals-board-members/",
+            "image_url": "https://crypto.snapi.dev/images/v1/o/p/106911087-16263029762021-07-12t182451z-1049474836-rc26jo9ua1af-rtrmadp-0-fintech-crypto-flows-120x86-90054.jpeg",
+            "title": "Dorsey And Jay-Z's Blind Trust To Fund Bitcoin Development Reveals Board Members",
+            "text": "The 500 BTC blind trust announced its board of directors. Back in February, Jack Dorsey and Jay-Z created the ₿trust with a clear mission.",
+            "source_name": "NewsBTC",
+            "date": "Thu, 16 Dec 2021 00:59:16 -0500",
+            "topics": [],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://coinpedia.org/news/crypto-bull-market-resumes-post-fed-meeting/",
+            "image_url": "https://crypto.snapi.dev/images/v1/k/r/crypto11-90051.jpg",
+            "title": "Crypto Bull Market Resumes Post Fed Meeting! BTC And ETH Getting Into 2022 Bull Season!",
+            "text": "The Federal Reserve officials raised their fearless stride to escalate the withdrawal of the unprecedented monetary impetus used to fortify markets in the wake of Covid-19. Conceding the mounting risk of inflation. The crypto fraternity has been carefully observing resolutions of the US central bank whilst the majority of them see Bitcoin and other cryptocurrencies …",
+            "source_name": "CoinPedia",
+            "date": "Thu, 16 Dec 2021 00:49:27 -0500",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC",
+                "ETH"
+            ]
+        },
+        {
+            "news_url": "https://www.cryptopolitan.com/bitcoin-ethereum-solana-tron-daily-price-analysis-15-december-roundup/",
+            "image_url": "https://crypto.snapi.dev/images/v1/z/h/roundup-v2-1-1-90044.png",
+            "title": "Bitcoin, Ethereum, Solana, TRON Daily Price Analysis – 15 December Roundup",
+            "text": "TL;DR Breakdown Global market cap takes a sigh of relief, adding 3.58% in the last 24 hours. Bitcoin has gained 2.10% in the last 24 hours, adding to its bulk.",
+            "source_name": "Cryptopolitan",
+            "date": "Thu, 16 Dec 2021 00:17:48 -0500",
+            "topics": [
+                "tanalysis"
+            ],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC",
+                "ETH",
+                "SOL",
+                "TRX"
+            ]
+        },
+        {
+            "news_url": "https://u.today/bitcoin-spikes-to-49000-as-fed-leaves-interest-rates-unchanged",
+            "image_url": "https://crypto.snapi.dev/images/v1/z/b/bitcoin-2007769-1920-154-89281-89946.jpg",
+            "title": "Bitcoin Spikes to $49,000 as Fed Leaves Interest Rates Unchanged",
+            "text": "Bitcoin spiked to an intraday high after the announcement",
+            "source_name": "UToday",
+            "date": "Wed, 15 Dec 2021 14:09:00 -0500",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.coindesk.com/business/2021/12/15/crypto-lender-ledn-raises-70m-in-series-b-round-readies-bitcoin-backed-mortgage-product/",
+            "image_url": "https://crypto.snapi.dev/images/v1/v/s/zji5ayrrhfgurah2pgfjaw6gd4-89745.jpg",
+            "title": "Crypto Lender Ledn Raises $70M in Series B Round, Readies Bitcoin-Backed Mortgage Product",
+            "text": "The crypto lender is looking to reach over $100 million in bitcoin-backed mortgage originations.",
+            "source_name": "Coindesk",
+            "date": "Wed, 15 Dec 2021 07:00:00 -0500",
+            "topics": [],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cointelegraph.com/news/bitcoin-rallies-above-49k-following-fed-fomc-announcement-of-rate-hikes-in-2022",
+            "image_url": "https://crypto.snapi.dev/images/v1/y/5/840-ahr0chm6ly9zmy5jb2ludgvszwdyyxbolmnvbs91cgxvywrzlziwmjetmtivyjvlmwuzmtytztbiyy00ngnklwi4nwetodhhmwu4mzfjnzk3lmpwzw-89977.jpg",
+            "title": "Bitcoin rallies above $49K following Fed FOMC announcement of rate hikes in 2022",
+            "text": "Bitcoin price action receives a welcome boost to $49,000 shortly after the Fed confirms rate hikes and a reduction of its bond purchasing policy in 2022.",
+            "source_name": "Cointelegraph",
+            "date": "Wed, 15 Dec 2021 15:27:33 -0500",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cointelegraph.com/news/bitcoin-struggles-to-hold-47k-as-fed-meeting-adds-to-extreme-btc-market-panic",
+            "image_url": "https://crypto.snapi.dev/images/v1/x/y/840-ahr0chm6ly9zmy5jb2ludgvszwdyyxbolmnvbs91cgxvywrzlziwmjetmtivytiym2m2owytywmwni00nzrkltk2zjutztzizdy0mdewmgrmlmpwzw-89840.jpg",
+            "title": "Bitcoin struggles to hold $47K as Fed meeting adds to 'extreme' BTC market panic",
+            "text": "Commentators brace for upheaval as Fed officials prepare to reveal future financial policy moves.",
+            "source_name": "Cointelegraph",
+            "date": "Wed, 15 Dec 2021 10:16:43 -0500",
+            "topics": [],
+            "sentiment": "Negative",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cointelegraph.com/news/markets-rally-after-fomc-meeting-but-bitcoin-bears-still-have-a-short-term-advantage",
+            "image_url": "https://crypto.snapi.dev/images/v1/u/i/840-ahr0chm6ly9zmy5jb2ludgvszwdyyxbolmnvbs91cgxvywrzlziwmjetmtivytq5mtdimgytnjmwmy00zwnhltgznzitmtmwngiwmjuzmtbilmpwzw-90018.jpg",
+            "title": "Markets rally after FOMC meeting, but Bitcoin bears still have a short-term advantage",
+            "text": "Bitcoin, altcoins and stocks rallied shortly after the Fed laid out its policy roadmap for 2022, but bears still have an advantage in this week $755 million options expiry.",
+            "source_name": "Cointelegraph",
+            "date": "Wed, 15 Dec 2021 18:30:00 -0500",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cointelegraph.com/news/analysts-expect-bitcoin-trend-change-after-fed-lays-out-its-2022-roadmap",
+            "image_url": "https://crypto.snapi.dev/images/v1/3/d/840-ahr0chm6ly9zmy5jb2ludgvszwdyyxbolmnvbs91cgxvywrzlziwmjetmtivyzrimjg1nmetnwuxyi00ode5lwflyzgtmmqxnmvmmgq4zmu0lmpwzw-89993.jpg",
+            "title": "Analysts expect Bitcoin trend change after Fed lays out its 2022 roadmap",
+            "text": "Traders look for a market-wide recovery now that the Fed confirmed at least 3 rate hikes and a wind down of its bond purchasing policy in 2022.",
+            "source_name": "Cointelegraph",
+            "date": "Wed, 15 Dec 2021 16:45:00 -0500",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://markets.businessinsider.com/news/currencies/coinbase-coinmarketcap-crypto-price-glitch-exchange-data-provider-trading-error-2021-12",
+            "image_url": "https://crypto.snapi.dev/images/v1/i/7/61b9bdf0a85c730018570379formatjpeg-89812.jpg",
+            "title": "CoinMarketCap glitch lists bitcoin at $799 billion, but Coinbase beats that astronomical price as its own crypto data goes nuts",
+            "text": "Tweets showed bitcoin's price on CoinMarketCap at $799 billion per coin, giving it a market value of $14.7 quintillion.",
+            "source_name": "Business Insider",
+            "date": "Wed, 15 Dec 2021 09:05:00 -0500",
+            "topics": [],
+            "sentiment": "Negative",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://decrypt.co/88419/bitcoin-stocks-bounce-back-fed-signals-interest-rate-hikes",
+            "image_url": "https://crypto.snapi.dev/images/v1/g/m/bitcoin-trampoline-bounce-gid-4-90005.jpeg",
+            "title": "Bitcoin, Stocks Bounce Back After Fed Signals Interest Rate Hikes",
+            "text": "Bitcoin and stock markets recouped some of their earlier losses after the Federal Reserve projected three interest rate increases in 2022.",
+            "source_name": "Decrypt",
+            "date": "Wed, 15 Dec 2021 17:31:48 -0500",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://decrypt.co/88366/crypto-firm-ledn-raises-70m-for-bitcoin-backed-mortgages",
+            "image_url": "https://crypto.snapi.dev/images/v1/x/y/bitcoin-crypto-investment-gid-2-89803.jpeg",
+            "title": "Crypto Firm Ledn Raises $70M for Bitcoin-Backed Mortgages",
+            "text": "Crypto savings and loan platform Ledn is preparing the world's first Bitcoin-backed mortgage offering after raising $70 million.",
+            "source_name": "Decrypt",
+            "date": "Wed, 15 Dec 2021 08:58:17 -0500",
+            "topics": [],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.theblockcrypto.com/post/127592/crypto-ledn-series-b-funding-bitcoin-backed-mortgage-product",
+            "image_url": "https://crypto.snapi.dev/images/v1/f/7/211214-ledn-funding-800x450-89739.jpg",
+            "title": "Crypto lender Ledn raises $70 million, announces new bitcoin-backed mortgage product",
+            "text": "Crypto lending firm Ledn has raised $70 million in a Series B funding round and is now valued at $540 million. The post Crypto lender Ledn raises $70 million, announces new bitcoin-backed mortgage product appeared first on The Block.",
+            "source_name": "The Block",
+            "date": "Wed, 15 Dec 2021 07:01:30 -0500",
+            "topics": [],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.youtube.com/watch?v=fBjQq8R9Qdc",
+            "image_url": "https://crypto.snapi.dev/images/v1/i/g/bitcoin-trends-could-provide-clues-about-future-90008.jpg",
+            "title": "Bitcoin Trends Could Provide Clues About Future",
+            "text": "Heavy selling pressure has seen Bitcoin slide from its all-time high of almost $69,000 on Nov. 11. What are some of the broader factors in the cryptocurrency landscape that traders are watching closely?",
+            "source_name": "Bloomberg Markets and Finance",
+            "date": "Wed, 15 Dec 2021 17:38:36 -0500",
+            "topics": [],
+            "sentiment": "Neutral",
+            "type": "Video",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.youtube.com/watch?v=jrKIoytzzh4",
+            "image_url": "https://crypto.snapi.dev/images/v1/k/q/bitcoin-should-hold-around-40000-novogratz-says-90011.jpg",
+            "title": "Bitcoin Should Hold Around $40,000 Novogratz Says",
+            "text": "Billionaire Mike Novogratz, founder of Galaxy Digital, says Bitcoin prices should hold around $40,000. He speaks with Bloomberg's Sonali Basak on \"Bloomberg Markets.",
+            "source_name": "Bloomberg Technology",
+            "date": "Wed, 15 Dec 2021 17:46:37 -0500",
+            "topics": [],
+            "sentiment": "Neutral",
+            "type": "Video",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.benzinga.com/markets/cryptocurrency/21/12/24614215/block-formerly-square-to-let-users-give-the-gift-of-bitcoin-this-holiday-season",
+            "image_url": "https://crypto.snapi.dev/images/v1/1/0/101023kamr-1-89751.jpg",
+            "title": "Block, Formerly Square, To Let Users Give The Gift Of Bitcoin This Holiday Season",
+            "text": "Block Inc's SQ Cash App users can give the gift of Bitcoin to their loved ones, this holiday season.",
+            "source_name": "Benzinga",
+            "date": "Wed, 15 Dec 2021 07:15:00 -0500",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cryptonews.com/news/blocks-cash-app-allow-its-40m-customers-gift-bitcoin.htm",
+            "image_url": "https://crypto.snapi.dev/images/v1/i/9/adobestock-thomas-dutour-1-1-89699.jpg",
+            "title": "Block's Cash App to Allow its 40M Customers to Gift Bitcoin",
+            "text": "Jack Dorsey's payment firm Block, previously called Square, has unveiled a new Cash App feature that will allow users to gift family and friends crypto and stock over the holiday season.",
+            "source_name": "Cryptonews",
+            "date": "Wed, 15 Dec 2021 05:25:00 -0500",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cryptonews.com/news/bitcoin-should-hold-usd-40k-says-novogratz-if-not-its-buying-opportunity-argues-kraken-ceo.htm",
+            "image_url": "https://crypto.snapi.dev/images/v1/p/i/nov-pow-1-89782.jpg",
+            "title": "Bitcoin 'Should Hold' USD 40K, Says Novogratz. If Not - It's a ‘Buying Opportunity,' Argues Kraken CEO",
+            "text": "A bitcoin (BTC) price of under USD 40,000 would be a “buying opportunity,” and the US dollar is “going to zero,” Jesse Powell, CEO of crypto exchange Kraken said in a new interview. Meanwhile, Galaxy Digital CEO Mike Novogratz said the market is in a “healthy” correction, and that a BTC price of USD 40,000 “should hold.”",
+            "source_name": "Cryptonews",
+            "date": "Wed, 15 Dec 2021 08:15:00 -0500",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        }
+    ]
+}
